@@ -11,7 +11,5 @@ import UIKit
 struct Chart2DEntity {
 	var data = [Double]()
 	var chartKey: String = ""
-	
-
 
 }

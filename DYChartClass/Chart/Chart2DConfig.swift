@@ -9,8 +9,6 @@
 import UIKit
 
 struct Chart2DConfig {
-
-
 	var yAxisLowerBound = 0
 	var yAxisUpperBound = 100
 	var yAxisUnitsCount = 5
@@ -19,15 +17,9 @@ struct Chart2DConfig {
 	var xAxisUpperBound = 100
 	var xAxisUnitsCount = 5
 	var xAxisValueFormat: NumberFormatter?
-
-
-
 }
 
 struct Chart2DConfigration {
-//	enum gridType {
-//		case non, thinX, thinXY, thinY
-//	}
 	var xAxisConfig = Chart2DAxisConfig()
 	var yAxisConfig = Chart2DAxisConfig()
 	var graphBackConfig = Chart2DGraphBackConfig()
@@ -143,10 +135,6 @@ class Chart2DAxisConfig {
 		}
 		self.labelArray = array
 	}
-
-
-
-	
 }
 
 

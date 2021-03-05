@@ -33,22 +33,6 @@ class DYDashboardCircleWithLabel: UIView, DYDashboardCircleDelegate {
 	}
 
 	private func setupView() {
-//		circle.colorType = .gradient
-//		circle.circleType = .circle
-//		circle.startPosition = .left
-//		circle.value(to: 0, animated: false)
-//		circle.frame.size = CGSize(width: 100, height: 100)
-//		circle.delegate = self
-//
-//		label.rootText = "0"
-//		label.rootFont = UIFont.systemFont(ofSize: 36, weight: .regular)
-//		label.suffixText = "%"
-//		label.suffixFont = UIFont.systemFont(ofSize: 22, weight: .regular)
-//		label.textColor = .label
-//		label.textAlignment = .center
-//		label.frame.size = CGSize(width: 100, height: 50)
-//		label.center = CGPoint(x: circle.frame.width / 2, y: circle.frame.height / 2)
-
 		circle.frame.size = CGSize(width: 100, height: 100)
 		circle.delegate = self
 		circle.value(to: 0, animated: false)

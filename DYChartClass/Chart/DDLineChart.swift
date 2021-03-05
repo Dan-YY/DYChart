@@ -12,12 +12,13 @@ class Chart2DView: UIView {
 
 	var dotType: DDLineChartDot.DotType = .non
 	var lineType: LineType = .stright
-	var range: ClosedRange<Int> = 0...100
 
-	let chartView = UIView()
-	let horizontalAxisView: Chart2DAxisView? = nil
-	let verticalAxisView: Chart2DAxisView? = nil
-	let keyView: UIView? = nil
+	private var range: ClosedRange<Int> = 0...100
+
+	private let chartView = UIView()
+	private let horizontalAxisView: Chart2DAxisView? = nil
+	private let verticalAxisView: Chart2DAxisView? = nil
+	private let keyView: UIView? = nil
 	
 
 	enum LineType {
@@ -128,8 +129,5 @@ class DDLineChartDot: CAShapeLayer {
 														clockwise: true)
 
 		path = bezierPath.cgPath
-
-
 	}
-
 }

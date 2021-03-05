@@ -14,7 +14,4 @@ class Chart2DAxisView: UIView {
 	var scaleCount: Int = 10
 	var range: ClosedRange<Int>?
 	var scaleTitles: [String]?
-	
-
-
 }

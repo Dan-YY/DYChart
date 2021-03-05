@@ -10,12 +10,10 @@ import UIKit
 
 class Chart2D: UIView {
 
-
 	// setting for chart templet
 	var xAxisUnitLabels: [String]?
 	var yAxisUnitLabels: [String]?
 	//var config: Chart2DConfigration
-	
 
 	enum style {
 		case ios, classic, noMergin
@@ -39,7 +37,7 @@ class Chart2D: UIView {
 		var yAxisLabelsWidth: CGFloat = 30
 	}
 
-	struct must {
+	struct Must {
 		var yAxisLowerBound = 0
 		var yAxisUpperBound = 100
 		var yAxisUnitsCount = 5
@@ -48,13 +46,10 @@ class Chart2D: UIView {
 		var xAxisUpperBound = 100
 		var xAxisUnitsCount = 5
 		var xAxisValueFormat: NumberFormatter?
-		
-
 	}
 
 	struct BodyConfig {
 		var type: String = "line"
-
 	}
 
 	struct AxisConfig {
@@ -172,16 +167,5 @@ class Chart2D: UIView {
 			yAxisView?.addSubview(label)
 		}
 	}
-
-
-
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
 
 }

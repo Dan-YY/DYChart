@@ -21,8 +21,20 @@ class Chart2DGraphBackground: UIView {
 	}
 
 	private func commonInit(config: Chart2DGraphBackConfig) {
+		//makeGradient()
+		//backgroundColor = .systemGray6
 		makeEdge(config: config.edgeType)
 		makeGrid(config: config)
+	}
+
+	private func makeGradient() {
+		let colorTop = UIColor.systemGray6.cgColor
+		let colorBot = UIColor.systemGray5.cgColor
+		let gradientLayer = CAGradientLayer()
+		gradientLayer.frame = bounds
+		gradientLayer.colors = [colorTop, colorBot]
+		gradientLayer.locations = [0.0, 1.0]
+		layer.addSublayer(gradientLayer)
 	}
 
 	private func makeEdge(config: Chart2DGraphBackConfig.EdgeType) {
@@ -70,7 +82,7 @@ class Chart2DGraphBackground: UIView {
 		let column = config.horizontalLineCount
 		let row = config.verticalLineCount
 		let columnLineWidth = config.horizontalLineWidth
-		let rowLineWidth = config.verticalLineWidth
+		//let rowLineWidth = config.verticalLineWidth
 		var config = ChartStraightLine.config()
 		config.lineWidth = columnLineWidth
 

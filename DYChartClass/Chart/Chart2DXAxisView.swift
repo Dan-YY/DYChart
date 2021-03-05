@@ -10,11 +10,11 @@ import UIKit
 
 class Chart2DXAxisView: UIView {
 
-	enum style {
+	enum Style {
 		case ios, classic
 	}
 
-	enum labelStyle {
+	enum LabelStyle {
 		case normal, angled30, angled45, doubleLine, date
 	}
 	

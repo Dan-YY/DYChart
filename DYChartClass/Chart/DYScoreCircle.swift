@@ -281,7 +281,6 @@ class DYScoreCircle: UIView, CAAnimationDelegate {
 		animation.fromValue = 0
 		//currentScore = value
 		animation.toValue = scoreToArcPercentage(score: value)
-		print("from", animation.fromValue, "to", animation.toValue)
 		animation.duration = 3
 		animation.delegate = self
 		//circleMask.strokeEnd = 1

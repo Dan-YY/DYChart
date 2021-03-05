@@ -25,7 +25,6 @@
 		FA2A744B23CEEE89001BB3F8 /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A744A23CEEE89001BB3F8 /* ChartData.swift */; };
 		FA2A744D23CEF960001BB3F8 /* DDLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A744C23CEF960001BB3F8 /* DDLine.swift */; };
 		FA2A744F23D0EA8D001BB3F8 /* Chart2DAxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A744E23D0EA8D001BB3F8 /* Chart2DAxisView.swift */; };
-		FA2A745123D0F1F8001BB3F8 /* Chart2DKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A745023D0F1F8001BB3F8 /* Chart2DKeyView.swift */; };
 		FA2A745623D0F38E001BB3F8 /* Chart2DGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A745523D0F38E001BB3F8 /* Chart2DGraphView.swift */; };
 		FA2A745823D0F430001BB3F8 /* Chart2DEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A745723D0F430001BB3F8 /* Chart2DEntity.swift */; };
 		FA2A745A23D0F6BC001BB3F8 /* ChartStraightLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A745923D0F6BC001BB3F8 /* ChartStraightLine.swift */; };
@@ -60,7 +59,6 @@
 		FA2A744A23CEEE89001BB3F8 /* ChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
 		FA2A744C23CEF960001BB3F8 /* DDLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDLine.swift; sourceTree = "<group>"; };
 		FA2A744E23D0EA8D001BB3F8 /* Chart2DAxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart2DAxisView.swift; sourceTree = "<group>"; };
-		FA2A745023D0F1F8001BB3F8 /* Chart2DKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart2DKeyView.swift; sourceTree = "<group>"; };
 		FA2A745523D0F38E001BB3F8 /* Chart2DGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart2DGraphView.swift; sourceTree = "<group>"; };
 		FA2A745723D0F430001BB3F8 /* Chart2DEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart2DEntity.swift; sourceTree = "<group>"; };
 		FA2A745923D0F6BC001BB3F8 /* ChartStraightLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartStraightLine.swift; sourceTree = "<group>"; };
@@ -85,6 +83,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA26A65125F2EB3A00B907A6 /* ViewElements */ = {
+			isa = PBXGroup;
+			children = (
+				FA2A744E23D0EA8D001BB3F8 /* Chart2DAxisView.swift */,
+				FAC07D8023D6C678007C51ED /* Chart2DXAxisView.swift */,
+				FAC07D8223D6C689007C51ED /* Chart2DYAxisView.swift */,
+				FA2A745523D0F38E001BB3F8 /* Chart2DGraphView.swift */,
+				FA1ED84A23D84366006847D6 /* Chart2DDot.swift */,
+				FA4F1D6D23D6DF370077768D /* Chart2DGraphLines.swift */,
+				FA4F1D6B23D6DF270077768D /* Chart2DGraphNodes.swift */,
+				FA2A745923D0F6BC001BB3F8 /* ChartStraightLine.swift */,
+				FA2A744C23CEF960001BB3F8 /* DDLine.swift */,
+				FA969EC123D6C2D000FCCF67 /* Chart2DGraphTopView.swift */,
+				FA4F1D6923D6DED60077768D /* Chart2DGraphBackground.swift */,
+				FA2A744323CEEDB8001BB3F8 /* DDLineChart.swift */,
+			);
+			name = ViewElements;
+			sourceTree = "<group>";
+		};
+		FA26A65225F2EB6D00B907A6 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				FA2A744A23CEEE89001BB3F8 /* ChartData.swift */,
+				FA1ED84823D7C1A2006847D6 /* DYConsFixDate.swift */,
+				FA4F1D6F23D6E8D50077768D /* Chart2DConfig.swift */,
+				FA2A745723D0F430001BB3F8 /* Chart2DEntity.swift */,
+			);
+			name = Struct;
+			sourceTree = "<group>";
+		};
+		FA26A65325F2EB7B00B907A6 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				FA1ED84C23D84523006847D6 /* Chart2DAnimation.swift */,
+			);
+			name = Enum;
+			sourceTree = "<group>";
+		};
+		FA26A65425F2EBDE00B907A6 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				FA2A745B23D111B7001BB3F8 /* Chart2D.swift */,
+				FA1ED84623D7BF8E006847D6 /* ChartProgress.swift */,
+			);
+			name = Chart;
+			sourceTree = "<group>";
+		};
 		FA2A742023CEED68001BB3F8 = {
 			isa = PBXGroup;
 			children = (
@@ -107,11 +152,6 @@
 				FA2A743023CEED68001BB3F8 /* ViewController.swift */,
 				FA2A742C23CEED68001BB3F8 /* AppDelegate.swift */,
 				FA2A745223D0F205001BB3F8 /* Chart */,
-				FA2A744A23CEEE89001BB3F8 /* ChartData.swift */,
-				FA2A744423CEEDB8001BB3F8 /* DYComminedLabel.swift */,
-				FA2A744223CEEDB8001BB3F8 /* DYDashboardCircle.swift */,
-				FA2A744023CEEDB8001BB3F8 /* DYDashboardCircleWithLabel.swift */,
-				FA2A744123CEEDB8001BB3F8 /* DYScoreCircle.swift */,
 				FA2A742E23CEED68001BB3F8 /* SceneDelegate.swift */,
 				FA2A743223CEED68001BB3F8 /* Main.storyboard */,
 				FA2A743523CEED6A001BB3F8 /* Assets.xcassets */,
@@ -124,6 +164,7 @@
 		FA2A745223D0F205001BB3F8 /* Chart */ = {
 			isa = PBXGroup;
 			children = (
+				FAFE667A25F2E6D800E11349 /* Testing */,
 				FA2A745323D0F21C001BB3F8 /* Chart2D */,
 				FA2A745423D0F224001BB3F8 /* ChartCircle */,
 			);
@@ -133,25 +174,10 @@
 		FA2A745323D0F21C001BB3F8 /* Chart2D */ = {
 			isa = PBXGroup;
 			children = (
-				FA2A744323CEEDB8001BB3F8 /* DDLineChart.swift */,
-				FA2A745723D0F430001BB3F8 /* Chart2DEntity.swift */,
-				FA2A745B23D111B7001BB3F8 /* Chart2D.swift */,
-				FA1ED84623D7BF8E006847D6 /* ChartProgress.swift */,
-				FA4F1D6F23D6E8D50077768D /* Chart2DConfig.swift */,
-				FA1ED84823D7C1A2006847D6 /* DYConsFixDate.swift */,
-				FA2A744E23D0EA8D001BB3F8 /* Chart2DAxisView.swift */,
-				FAC07D8023D6C678007C51ED /* Chart2DXAxisView.swift */,
-				FAC07D8223D6C689007C51ED /* Chart2DYAxisView.swift */,
-				FA2A745523D0F38E001BB3F8 /* Chart2DGraphView.swift */,
-				FA4F1D6923D6DED60077768D /* Chart2DGraphBackground.swift */,
-				FA4F1D6B23D6DF270077768D /* Chart2DGraphNodes.swift */,
-				FA1ED84C23D84523006847D6 /* Chart2DAnimation.swift */,
-				FA1ED84A23D84366006847D6 /* Chart2DDot.swift */,
-				FA4F1D6D23D6DF370077768D /* Chart2DGraphLines.swift */,
-				FA2A745023D0F1F8001BB3F8 /* Chart2DKeyView.swift */,
-				FA969EC123D6C2D000FCCF67 /* Chart2DGraphTopView.swift */,
-				FA2A744C23CEF960001BB3F8 /* DDLine.swift */,
-				FA2A745923D0F6BC001BB3F8 /* ChartStraightLine.swift */,
+				FA26A65425F2EBDE00B907A6 /* Chart */,
+				FA26A65325F2EB7B00B907A6 /* Enum */,
+				FA26A65225F2EB6D00B907A6 /* Struct */,
+				FA26A65125F2EB3A00B907A6 /* ViewElements */,
 			);
 			name = Chart2D;
 			sourceTree = "<group>";
@@ -159,8 +185,19 @@
 		FA2A745423D0F224001BB3F8 /* ChartCircle */ = {
 			isa = PBXGroup;
 			children = (
+				FA2A744223CEEDB8001BB3F8 /* DYDashboardCircle.swift */,
 			);
 			name = ChartCircle;
+			sourceTree = "<group>";
+		};
+		FAFE667A25F2E6D800E11349 /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				FA2A744423CEEDB8001BB3F8 /* DYComminedLabel.swift */,
+				FA2A744023CEEDB8001BB3F8 /* DYDashboardCircleWithLabel.swift */,
+				FA2A744123CEEDB8001BB3F8 /* DYScoreCircle.swift */,
+			);
+			name = Testing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +288,6 @@
 				FA2A745823D0F430001BB3F8 /* Chart2DEntity.swift in Sources */,
 				FA2A744D23CEF960001BB3F8 /* DDLine.swift in Sources */,
 				FA2A743123CEED68001BB3F8 /* ViewController.swift in Sources */,
-				FA2A745123D0F1F8001BB3F8 /* Chart2DKeyView.swift in Sources */,
 				FA4F1D6E23D6DF370077768D /* Chart2DGraphLines.swift in Sources */,
 				FA2A742D23CEED68001BB3F8 /* AppDelegate.swift in Sources */,
 				FA2A742F23CEED68001BB3F8 /* SceneDelegate.swift in Sources */,

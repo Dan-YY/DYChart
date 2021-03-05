@@ -13,7 +13,6 @@ class Chart2DGraphView: UIView {
 	var backgroundView: Chart2DGraphBackground!
 	var dotsView = Chart2DGraphNodes()
 	var linesView = Chart2DGraphLines()
-	
 
 	init(frame: CGRect, config: Chart2DGraphBackConfig) {
 		super.init(frame: frame)
@@ -37,7 +36,6 @@ class Chart2DGraphView: UIView {
 	}
 
 	private func setup() {
-
 		//makeBackground()
 	}
 
@@ -46,7 +44,6 @@ class Chart2DGraphView: UIView {
 }
 
 extension Chart2DGraphView {
-
 	private func makeBackground() {
 		makeEdge()
 		makeGrid(column: 3, row: 10)

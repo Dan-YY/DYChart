@@ -13,3 +13,8 @@ class Chart2DDot: CAShapeLayer {
 	var endPosition: CGPoint?
 	var yOffset: CGFloat?
 }
+
+class Chart2DLine: ChartStraightLine {
+	var positionA: CGPoint?
+	var positionB: CGPoint?
+}

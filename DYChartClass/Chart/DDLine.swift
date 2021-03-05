@@ -36,8 +36,8 @@ class DDLine: CAShapeLayer {
 		let color = config.lineColor
 		let width = config.lineWidth
 		let direction = config.directionType
-		let type = config.lineType
-		let pattern = config.linePattern
+		//let type = config.lineType
+		//let pattern = config.linePattern
 		let size = config.rectSize
 
 		let startPoint: CGPoint = CGPoint(x: 0, y: 0)

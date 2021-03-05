@@ -17,7 +17,7 @@ class ChartProgress: UIView {
 
 	let xAxisMaxUnit = 10
 
-	enum type {
+	enum subType {
 		case overall, sub
 	}
 
@@ -68,6 +68,7 @@ class ChartProgress: UIView {
 	}
 
 	override func layoutSubviews() {
+		super.layoutSubviews()
 		print("in layoutSubview")
 	}
 
@@ -77,7 +78,6 @@ class ChartProgress: UIView {
 
 	private func setupGraphView(frame: CGRect, config: Chart2DGraphBackConfig) {
 		graphView = Chart2DGraphView(frame: frame, config: config)
-
 	}
 
 	private func setupXAxisView(frame: CGRect, config: Chart2DAxisConfig) {
@@ -101,7 +101,6 @@ class ChartProgress: UIView {
 			xAxisView?.addSubview(label)
 			xPositionArray.append(positionX)
 		}
-		print(frame, xPositionArray)
 	}
 
 	private func setupYAxisView(frame: CGRect, config: Chart2DAxisConfig) {

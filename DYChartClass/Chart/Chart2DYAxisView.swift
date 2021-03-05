@@ -9,11 +9,7 @@
 import UIKit
 
 class Chart2DYAxisView: UIView {
-
-	enum style {
+	enum Style {
 		case ios, classic
 	}
-
-	
-
 }
