@@ -24,11 +24,8 @@ class DYDashboardCircle: UIView {
 
 	private(set) var currentValue: CGFloat = 1.0 {
 		didSet {
-			if currentValue < 0.0 {
-				currentValue = 0.0
-			} else if currentValue > 1.0 {
-				currentValue = 1.0
-			}
+			currentValue = currentValue > 0.0 ? currentValue : 0.0
+			currentValue = currentValue < 1.0 ? currentValue : 1.0
 		}
 	}
 
@@ -39,7 +36,7 @@ class DYDashboardCircle: UIView {
 	private var prevAnimationTimeStampe: Double = 0.0
 	private var prevAnimationDuration: Double = 0.0
 
-	// setting
+	// constant and setting
 	private let preferredDelegateUpdatesPerSecond = 60
 	private let keyPositionToCGPointArray: [CGPoint] = [CGPoint(x: 1.0, y: 0.5), CGPoint(x: 0.5, y: 1.0), CGPoint(x: 0.0, y: 0.5), CGPoint(x: 0.5, y: 0)]
 	private let keyPositionToCenterArray: [CGPoint] = [CGPoint(x: 0.5, y: 0.0), CGPoint(x: 1.0, y: 0.5), CGPoint(x: 0.5, y: 1.0), CGPoint(x: 0, y: 0.5)]
@@ -61,7 +58,9 @@ class DYDashboardCircle: UIView {
 		layer.addSublayer(maskedLayer)
 	}
 
-	deinit { print("\(self) deinited") }
+	deinit {
+		//print("\(self) deinited")
+	}
 
 	// MARK: Public func
 	func value(to percentage: CGFloat, animated: Bool, duration: TimeInterval? = nil) {
