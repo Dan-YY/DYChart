@@ -1,4 +1,4 @@
-# DYChart
+# DYChart for Swift
 
 Easy setup chart class
 
