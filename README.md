@@ -6,7 +6,7 @@ Including circle dashboard and 2DChart
 
 Both with animation and variety of config to customize.
 
-![alt text](http://www.dansstudio.ca/resources/pubSha/ChartDemoGIF.gif.opt584x1244o0%2C0s584x1244.gif "Logo Title Text 1")
+![alt text](https://github.com/studiodan/DYChart/blob/master/ChartDemoGIF.gif "Logo Title Text 1")
 
 
 Circle/Semi Chircle dashboard sample:
