@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA1ED84723D7BF8E006847D6 /* ChartProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1ED84623D7BF8E006847D6 /* ChartProgress.swift */; };
-		FA1ED84923D7C1A2006847D6 /* DYConsFixDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1ED84823D7C1A2006847D6 /* DYConsFixDate.swift */; };
 		FA1ED84B23D84366006847D6 /* Chart2DDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1ED84A23D84366006847D6 /* Chart2DDot.swift */; };
 		FA1ED84D23D84523006847D6 /* Chart2DAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1ED84C23D84523006847D6 /* Chart2DAnimation.swift */; };
 		FA2A742D23CEED68001BB3F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A742C23CEED68001BB3F8 /* AppDelegate.swift */; };
@@ -22,13 +20,11 @@
 		FA2A744723CEEDB8001BB3F8 /* DYDashboardCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A744223CEEDB8001BB3F8 /* DYDashboardCircle.swift */; };
 		FA2A744823CEEDB8001BB3F8 /* DDLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A744323CEEDB8001BB3F8 /* DDLineChart.swift */; };
 		FA2A744923CEEDB8001BB3F8 /* DYComminedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A744423CEEDB8001BB3F8 /* DYComminedLabel.swift */; };
-		FA2A744B23CEEE89001BB3F8 /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A744A23CEEE89001BB3F8 /* ChartData.swift */; };
 		FA2A744D23CEF960001BB3F8 /* DDLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A744C23CEF960001BB3F8 /* DDLine.swift */; };
 		FA2A744F23D0EA8D001BB3F8 /* Chart2DAxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A744E23D0EA8D001BB3F8 /* Chart2DAxisView.swift */; };
 		FA2A745623D0F38E001BB3F8 /* Chart2DGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A745523D0F38E001BB3F8 /* Chart2DGraphView.swift */; };
 		FA2A745823D0F430001BB3F8 /* Chart2DEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A745723D0F430001BB3F8 /* Chart2DEntity.swift */; };
 		FA2A745A23D0F6BC001BB3F8 /* ChartStraightLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A745923D0F6BC001BB3F8 /* ChartStraightLine.swift */; };
-		FA2A745C23D111B7001BB3F8 /* Chart2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A745B23D111B7001BB3F8 /* Chart2D.swift */; };
 		FA4F1D6A23D6DED60077768D /* Chart2DGraphBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F1D6923D6DED60077768D /* Chart2DGraphBackground.swift */; };
 		FA4F1D6C23D6DF270077768D /* Chart2DGraphNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F1D6B23D6DF270077768D /* Chart2DGraphNodes.swift */; };
 		FA4F1D6E23D6DF370077768D /* Chart2DGraphLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F1D6D23D6DF370077768D /* Chart2DGraphLines.swift */; };
@@ -36,11 +32,12 @@
 		FA969EC223D6C2D000FCCF67 /* Chart2DGraphTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA969EC123D6C2D000FCCF67 /* Chart2DGraphTopView.swift */; };
 		FAC07D8123D6C678007C51ED /* Chart2DXAxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC07D8023D6C678007C51ED /* Chart2DXAxisView.swift */; };
 		FAC07D8323D6C689007C51ED /* Chart2DYAxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC07D8223D6C689007C51ED /* Chart2DYAxisView.swift */; };
+		FAD9042C25F66743008ABF24 /* ChartProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9042B25F66743008ABF24 /* ChartProgress.swift */; };
+		FAD9043025F66756008ABF24 /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9042E25F66756008ABF24 /* ChartData.swift */; };
+		FAD9043125F66756008ABF24 /* DYConsFixDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9042F25F66756008ABF24 /* DYConsFixDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FA1ED84623D7BF8E006847D6 /* ChartProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChartProgress.swift; path = ../ChartProgress.swift; sourceTree = "<group>"; };
-		FA1ED84823D7C1A2006847D6 /* DYConsFixDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DYConsFixDate.swift; path = ../DYConsFixDate.swift; sourceTree = "<group>"; };
 		FA1ED84A23D84366006847D6 /* Chart2DDot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart2DDot.swift; sourceTree = "<group>"; };
 		FA1ED84C23D84523006847D6 /* Chart2DAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart2DAnimation.swift; sourceTree = "<group>"; };
 		FA2A742923CEED68001BB3F8 /* DYChartClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYChartClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,20 +53,21 @@
 		FA2A744223CEEDB8001BB3F8 /* DYDashboardCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYDashboardCircle.swift; sourceTree = "<group>"; };
 		FA2A744323CEEDB8001BB3F8 /* DDLineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDLineChart.swift; sourceTree = "<group>"; };
 		FA2A744423CEEDB8001BB3F8 /* DYComminedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYComminedLabel.swift; sourceTree = "<group>"; };
-		FA2A744A23CEEE89001BB3F8 /* ChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChartData.swift; path = ../ChartData.swift; sourceTree = "<group>"; };
 		FA2A744C23CEF960001BB3F8 /* DDLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDLine.swift; sourceTree = "<group>"; };
 		FA2A744E23D0EA8D001BB3F8 /* Chart2DAxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart2DAxisView.swift; sourceTree = "<group>"; };
 		FA2A745523D0F38E001BB3F8 /* Chart2DGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart2DGraphView.swift; sourceTree = "<group>"; };
-		FA2A745723D0F430001BB3F8 /* Chart2DEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Chart2DEntity.swift; path = DYChartClass/Chart/Chart2DEntity.swift; sourceTree = SOURCE_ROOT; };
+		FA2A745723D0F430001BB3F8 /* Chart2DEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Chart2DEntity.swift; path = DYChartClass/Chart/UnderConstruction/Chart2D/Struct/Chart2DEntity.swift; sourceTree = SOURCE_ROOT; };
 		FA2A745923D0F6BC001BB3F8 /* ChartStraightLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartStraightLine.swift; sourceTree = "<group>"; };
-		FA2A745B23D111B7001BB3F8 /* Chart2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Chart2D.swift; path = DYChartClass/Chart/Chart2D.swift; sourceTree = SOURCE_ROOT; };
 		FA4F1D6923D6DED60077768D /* Chart2DGraphBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart2DGraphBackground.swift; sourceTree = "<group>"; };
 		FA4F1D6B23D6DF270077768D /* Chart2DGraphNodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart2DGraphNodes.swift; sourceTree = "<group>"; };
 		FA4F1D6D23D6DF370077768D /* Chart2DGraphLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart2DGraphLines.swift; sourceTree = "<group>"; };
-		FA4F1D6F23D6E8D50077768D /* Chart2DConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Chart2DConfig.swift; path = DYChartClass/Chart/Chart2DConfig.swift; sourceTree = SOURCE_ROOT; };
+		FA4F1D6F23D6E8D50077768D /* Chart2DConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Chart2DConfig.swift; path = DYChartClass/Chart/UnderConstruction/Chart2D/Struct/Chart2DConfig.swift; sourceTree = SOURCE_ROOT; };
 		FA969EC123D6C2D000FCCF67 /* Chart2DGraphTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart2DGraphTopView.swift; sourceTree = "<group>"; };
 		FAC07D8023D6C678007C51ED /* Chart2DXAxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart2DXAxisView.swift; sourceTree = "<group>"; };
 		FAC07D8223D6C689007C51ED /* Chart2DYAxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart2DYAxisView.swift; sourceTree = "<group>"; };
+		FAD9042B25F66743008ABF24 /* ChartProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartProgress.swift; path = ../../../../../../../../tempBackupForChart/ChartProgress.swift; sourceTree = "<group>"; };
+		FAD9042E25F66756008ABF24 /* ChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartData.swift; path = ../../../../../../../../tempBackupForChart/ChartData.swift; sourceTree = "<group>"; };
+		FAD9042F25F66756008ABF24 /* DYConsFixDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DYConsFixDate.swift; path = ../../../../../../../../tempBackupForChart/DYConsFixDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,10 +115,38 @@
 		FA2A745223D0F205001BB3F8 /* Chart */ = {
 			isa = PBXGroup;
 			children = (
+				FAAA304625F665320010BC62 /* UnderConstruction */,
 				FAF0797525F62C260086855C /* Completed */,
-				FAF0797425F62BBC0086855C /* UnderConstruction */,
 			);
 			path = Chart;
+			sourceTree = "<group>";
+		};
+		FA4B274D25F665FC00E18838 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				FA4F1D6F23D6E8D50077768D /* Chart2DConfig.swift */,
+				FAD9042E25F66756008ABF24 /* ChartData.swift */,
+				FAD9042F25F66756008ABF24 /* DYConsFixDate.swift */,
+				FA2A745723D0F430001BB3F8 /* Chart2DEntity.swift */,
+			);
+			path = Struct;
+			sourceTree = "<group>";
+		};
+		FA4B274E25F6660400E18838 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				FAD9042B25F66743008ABF24 /* ChartProgress.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		FAAA304625F665320010BC62 /* UnderConstruction */ = {
+			isa = PBXGroup;
+			children = (
+				FAF0797125F62B2F0086855C /* Testing */,
+				FAF0797225F62B6C0086855C /* Chart2D */,
+			);
+			path = UnderConstruction;
 			sourceTree = "<group>";
 		};
 		FAF0797125F62B2F0086855C /* Testing */ = {
@@ -136,6 +162,8 @@
 		FAF0797225F62B6C0086855C /* Chart2D */ = {
 			isa = PBXGroup;
 			children = (
+				FA4B274E25F6660400E18838 /* Chart */,
+				FA4B274D25F665FC00E18838 /* Struct */,
 				FAF0797925F62CBA0086855C /* ViewElementObjc */,
 				FAF0797825F62C980086855C /* Struct */,
 				FAF0797625F62C7D0086855C /* Chart */,
@@ -152,15 +180,6 @@
 			path = ChartCircle;
 			sourceTree = "<group>";
 		};
-		FAF0797425F62BBC0086855C /* UnderConstruction */ = {
-			isa = PBXGroup;
-			children = (
-				FAF0797125F62B2F0086855C /* Testing */,
-				FAF0797225F62B6C0086855C /* Chart2D */,
-			);
-			name = UnderConstruction;
-			sourceTree = "<group>";
-		};
 		FAF0797525F62C260086855C /* Completed */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,8 +191,6 @@
 		FAF0797625F62C7D0086855C /* Chart */ = {
 			isa = PBXGroup;
 			children = (
-				FA2A745B23D111B7001BB3F8 /* Chart2D.swift */,
-				FA1ED84623D7BF8E006847D6 /* ChartProgress.swift */,
 			);
 			name = Chart;
 			sourceTree = "<group>";
@@ -189,10 +206,6 @@
 		FAF0797825F62C980086855C /* Struct */ = {
 			isa = PBXGroup;
 			children = (
-				FA2A744A23CEEE89001BB3F8 /* ChartData.swift */,
-				FA1ED84823D7C1A2006847D6 /* DYConsFixDate.swift */,
-				FA4F1D6F23D6E8D50077768D /* Chart2DConfig.swift */,
-				FA2A745723D0F430001BB3F8 /* Chart2DEntity.swift */,
 			);
 			name = Struct;
 			sourceTree = "<group>";
@@ -288,19 +301,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA1ED84B23D84366006847D6 /* Chart2DDot.swift in Sources */,
+				FAD9043125F66756008ABF24 /* DYConsFixDate.swift in Sources */,
 				FAC07D8323D6C689007C51ED /* Chart2DYAxisView.swift in Sources */,
 				FA4F1D7023D6E8D50077768D /* Chart2DConfig.swift in Sources */,
-				FA2A745C23D111B7001BB3F8 /* Chart2D.swift in Sources */,
 				FA2A744523CEEDB8001BB3F8 /* DYDashboardCircleWithLabel.swift in Sources */,
+				FAD9042C25F66743008ABF24 /* ChartProgress.swift in Sources */,
 				FA2A744923CEEDB8001BB3F8 /* DYComminedLabel.swift in Sources */,
-				FA1ED84923D7C1A2006847D6 /* DYConsFixDate.swift in Sources */,
 				FA1ED84D23D84523006847D6 /* Chart2DAnimation.swift in Sources */,
-				FA1ED84723D7BF8E006847D6 /* ChartProgress.swift in Sources */,
 				FA2A744823CEEDB8001BB3F8 /* DDLineChart.swift in Sources */,
 				FA4F1D6A23D6DED60077768D /* Chart2DGraphBackground.swift in Sources */,
 				FA2A744623CEEDB8001BB3F8 /* DYScoreCircle.swift in Sources */,
 				FA2A745A23D0F6BC001BB3F8 /* ChartStraightLine.swift in Sources */,
-				FA2A744B23CEEE89001BB3F8 /* ChartData.swift in Sources */,
 				FA2A745823D0F430001BB3F8 /* Chart2DEntity.swift in Sources */,
 				FA2A744D23CEF960001BB3F8 /* DDLine.swift in Sources */,
 				FA2A743123CEED68001BB3F8 /* ViewController.swift in Sources */,
@@ -310,6 +321,7 @@
 				FA2A745623D0F38E001BB3F8 /* Chart2DGraphView.swift in Sources */,
 				FA969EC223D6C2D000FCCF67 /* Chart2DGraphTopView.swift in Sources */,
 				FA2A744F23D0EA8D001BB3F8 /* Chart2DAxisView.swift in Sources */,
+				FAD9043025F66756008ABF24 /* ChartData.swift in Sources */,
 				FA2A744723CEEDB8001BB3F8 /* DYDashboardCircle.swift in Sources */,
 				FA4F1D6C23D6DF270077768D /* Chart2DGraphNodes.swift in Sources */,
 				FAC07D8123D6C678007C51ED /* Chart2DXAxisView.swift in Sources */,
