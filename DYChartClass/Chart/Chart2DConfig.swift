@@ -8,16 +8,18 @@
 
 import UIKit
 
-struct Chart2DConfig {
-	var yAxisLowerBound = 0
-	var yAxisUpperBound = 100
-	var yAxisUnitsCount = 5
-	var yAxisValueFormat: NumberFormatter?
-	var xAxisLowerBound = 0
-	var xAxisUpperBound = 100
-	var xAxisUnitsCount = 5
-	var xAxisValueFormat: NumberFormatter?
-}
+//struct Chart2DConfig {
+//	var yAxisLowerBound = 0
+//	var yAxisUpperBound = 100
+//	var yAxisUnitsCount = 5
+//	var yAxisValueFormat: NumberFormatter?
+//	var xAxisLowerBound = 0
+//	var xAxisUpperBound = 100
+//	var xAxisUnitsCount = 5
+//	var xAxisValueFormat: NumberFormatter?
+//}
+
+
 
 struct Chart2DConfigration {
 	var xAxisConfig = Chart2DAxisConfig()

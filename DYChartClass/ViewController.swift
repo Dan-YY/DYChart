@@ -31,11 +31,18 @@ class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		//setupCurrent()
 		//setupSingleDashboardCircleSample()
-		setupMutipleDashboardCircleSample()
+		setupMultipleDashboardCircleSample()
 		setupChartProgressSample()
 		setupTestingButton()
 	}
+
+//	private func setupCurrent() {
+//		let rect = CGRect(x: sw * 0.05, y: sh * 0.55, width: sw * 0.9, height: sw * 0.8)
+//		let chart = ChartProgress(frame: rect, xAxisSectionHeight: sw * 0.1, yAxisSectionWidth: sw * 0.1)
+//		view.addSubview(chart)
+//	}
 
 	// MARK: Dashboard simple sample
 	private func setupSingleDashboardCircleSample() {
@@ -46,12 +53,13 @@ class ViewController: UIViewController {
 	}
 
 	// MARK: Dashboard advanced
-	private func setupMutipleDashboardCircleSample() {
+	private func setupMultipleDashboardCircleSample() {
 
-		let originFacoterArr: [CGPoint] = [CGPoint(x: 0.1, y: 0.1), CGPoint(x: 0.6, y: 0.1), CGPoint(x: 0.1, y: 0.3), CGPoint(x: 0.75, y: 0.5)]
+		let positionFactorArr: [CGPoint] = [CGPoint(x: 0.1, y: 0.1), CGPoint(x: 0.6, y: 0.1), CGPoint(x: 0.1, y: 0.3), CGPoint(x: 0.75, y: 0.5)]
 
-		originFacoterArr.forEach {
-			let dashCircle = DYDashboardCircle(frame: CGRect(x: sw * $0.x, y: sw * $0.y, width: sw * 0.3, height: sw * 0.3))
+		positionFactorArr.forEach {
+			let frame = CGRect(x: sw * $0.x, y: sw * $0.y, width: sw * 0.3, height: sw * 0.3)
+			let dashCircle = DYDashboardCircle(frame: frame)
 			dashCircle.value(to: 0.9, animated: true)
 			dashCircle.layoutSubviews()
 			view.addSubview(dashCircle)
@@ -63,7 +71,7 @@ class ViewController: UIViewController {
 		dashCricleArr[2].colorType = .block
 		dashCricleArr[2].circleType = .semiCircle
 		dashCricleArr[3].circleType = .semiCircle
-		dashCricleArr[3].circleLineWidth = 6.0
+		dashCricleArr[3].circleLineWidth = sw * 0.1
 		dashCricleArr[3].startPosition = .top
 	}
 
