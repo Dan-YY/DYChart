@@ -24,6 +24,7 @@
 		FA2A744F23D0EA8D001BB3F8 /* Chart2DAxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A744E23D0EA8D001BB3F8 /* Chart2DAxisView.swift */; };
 		FA2A745623D0F38E001BB3F8 /* Chart2DGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A745523D0F38E001BB3F8 /* Chart2DGraphView.swift */; };
 		FA2A745A23D0F6BC001BB3F8 /* ChartStraightLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A745923D0F6BC001BB3F8 /* ChartStraightLine.swift */; };
+		FA45B63525F66F50005886B0 /* ChartProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA45B63425F66F50005886B0 /* ChartProgress.swift */; };
 		FA4F1D6A23D6DED60077768D /* Chart2DGraphBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F1D6923D6DED60077768D /* Chart2DGraphBackground.swift */; };
 		FA4F1D6C23D6DF270077768D /* Chart2DGraphNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F1D6B23D6DF270077768D /* Chart2DGraphNodes.swift */; };
 		FA4F1D6E23D6DF370077768D /* Chart2DGraphLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F1D6D23D6DF370077768D /* Chart2DGraphLines.swift */; };
@@ -55,6 +56,7 @@
 		FA2A744E23D0EA8D001BB3F8 /* Chart2DAxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart2DAxisView.swift; sourceTree = "<group>"; };
 		FA2A745523D0F38E001BB3F8 /* Chart2DGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart2DGraphView.swift; sourceTree = "<group>"; };
 		FA2A745923D0F6BC001BB3F8 /* ChartStraightLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartStraightLine.swift; sourceTree = "<group>"; };
+		FA45B63425F66F50005886B0 /* ChartProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartProgress.swift; path = DYChartClass/ChartProgress.swift; sourceTree = SOURCE_ROOT; };
 		FA4F1D6923D6DED60077768D /* Chart2DGraphBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart2DGraphBackground.swift; sourceTree = "<group>"; };
 		FA4F1D6B23D6DF270077768D /* Chart2DGraphNodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart2DGraphNodes.swift; sourceTree = "<group>"; };
 		FA4F1D6D23D6DF370077768D /* Chart2DGraphLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart2DGraphLines.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 		FA4B274E25F6660400E18838 /* Chart */ = {
 			isa = PBXGroup;
 			children = (
+				FA45B63425F66F50005886B0 /* ChartProgress.swift */,
 			);
 			path = Chart;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				FA2A744523CEEDB8001BB3F8 /* DYDashboardCircleWithLabel.swift in Sources */,
 				FAD9044025F66A47008ABF24 /* DYConsFixDate.swift in Sources */,
 				FA2A744923CEEDB8001BB3F8 /* DYComminedLabel.swift in Sources */,
+				FA45B63525F66F50005886B0 /* ChartProgress.swift in Sources */,
 				FA1ED84D23D84523006847D6 /* Chart2DAnimation.swift in Sources */,
 				FAD9043B25F6695C008ABF24 /* Chart2DEntity.swift in Sources */,
 				FA2A744823CEEDB8001BB3F8 /* DDLineChart.swift in Sources */,
