@@ -66,9 +66,10 @@ class ViewController: UIViewController {
 			dashCricleArr.append(dashCircle)
 		}
 
-		dashCricleArr[0].circleColors = [.systemPink, .systemBlue, .systemRed]
+		dashCricleArr[0].colorType = .block
+		dashCricleArr[0].circleLineWidth = sw * 0.1
 		dashCricleArr[1].startPosition = .right
-		dashCricleArr[2].colorType = .block
+		dashCricleArr[2].circleColors = [.systemPink, .systemBlue, .systemRed]
 		dashCricleArr[2].circleType = .semiCircle
 		dashCricleArr[3].circleType = .semiCircle
 		dashCricleArr[3].circleLineWidth = sw * 0.1
