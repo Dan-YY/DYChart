@@ -31,26 +31,20 @@ class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		//setupCurrent()
 		//setupSingleDashboardCircleSample()
 		setupMultipleDashboardCircleSample()
 		setupChartProgressSample()
 		setupTestingButton()
 	}
 
-//	private func setupCurrent() {
-//		let rect = CGRect(x: sw * 0.05, y: sh * 0.55, width: sw * 0.9, height: sw * 0.8)
-//		let chart = ChartProgress(frame: rect, xAxisSectionHeight: sw * 0.1, yAxisSectionWidth: sw * 0.1)
-//		view.addSubview(chart)
-//	}
 
 	// MARK: Dashboard simple sample
-	private func setupSingleDashboardCircleSample() {
-		dashCircle.frame = CGRect(x: sw * 0.2, y: sw * 0.2, width: sw * 0.6, height: sw * 0.6)
-		view.addSubview(dashCircle)
-		dashCircle.value(to: 0.9, animated: true)
-		dashCircle.layoutSubviews()
-	}
+//	private func setupSingleDashboardCircleSample() {
+//		dashCircle.frame = CGRect(x: sw * 0.2, y: sw * 0.2, width: sw * 0.6, height: sw * 0.6)
+//		view.addSubview(dashCircle)
+//		dashCircle.value(to: 0.9, animated: true)
+//		dashCircle.layoutSubviews()
+//	}
 
 	// MARK: Dashboard advanced
 	private func setupMultipleDashboardCircleSample() {
@@ -69,10 +63,10 @@ class ViewController: UIViewController {
 		dashCricleArr[0].colorType = .block
 		dashCricleArr[0].circleLineWidth = sw * 0.1
 		dashCricleArr[1].startPosition = .right
-		dashCricleArr[2].circleColors = [.systemPink, .systemBlue, .systemRed]
+		dashCricleArr[1].circleLineWidth = sw * 0.05
+		dashCricleArr[1].circleColors = [.systemPink, .systemBlue, .systemRed]
 		dashCricleArr[2].circleType = .semiCircle
 		dashCricleArr[3].circleType = .semiCircle
-		dashCricleArr[3].circleLineWidth = sw * 0.1
 		dashCricleArr[3].startPosition = .top
 	}
 
@@ -109,7 +103,6 @@ class ViewController: UIViewController {
 	}
 
 	private func setupTestingButton() {
-
 		let randomPercentButton = UIButton(type: .roundedRect)
 		randomPercentButton.frame = CGRect(x: sw * 0.25, y: sh * 0.45, width: sw * 0.5, height: 50.0)
 		randomPercentButton.setTitle("Random Percent", for: .normal)
@@ -131,6 +124,7 @@ class ViewController: UIViewController {
 		view.addSubview(progressButtonRight)
 	}
 
+
 	// MARK: Handler
 	@objc func onRandomPercentButton(sender: UIButton) {
 		let value = CGFloat.random(in: 0.0...1.0)
@@ -146,6 +140,8 @@ class ViewController: UIViewController {
 		}
 	}
 
+#if DEBUG
 	deinit { print("\(self) deinited") }
+#endif
 }
 
